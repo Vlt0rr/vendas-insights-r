@@ -4,16 +4,17 @@ Este repositório contém dois scripts desenvolvidos em R para geração, limpez
 
 ---
 
-## 📂 Estrutura do Repositório
-
+📂 Estrutura do Repositório
 O repositório está organizado da seguinte forma:
+
 /Teste_Analytics_VitorAlves
 │
-├── 1.Gerando_dataset.R           # Primeiro script
-├── 2.Grafico_tendencia.R         # Segundo script
-├── README.md                     # Documentação
-├── consultas_sql.sql             # Consulta SQL solicitada
-├── relatorio_insights.pdf        # Relatório dos insights retirados da analise feita
+├── 1.Gerando_dataset.R       # Primeiro script
+├── 2.Grafico_tendencia.R     # Segundo script
+├── README.md                 # Documentação do projeto
+├── consultas_sql.sql         # Consulta SQL solicitada
+└── relatorio_insights.pdf    # Relatório dos insights retirados da análise
+
 
 
 ---
