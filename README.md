@@ -71,7 +71,7 @@ Etapas realizadas:
   Execução:
   
 - Abra o script 2.Grafico_tendencia.R.
-- Substitua caminho_dataset pelo caminho completo do arquivo data_clean.csv.
+- Substitua caminho_dataset pelo caminho completo do arquivo data_clean.csv(lembre-se de colocar as barras duplas no lugar das barras padrões do caminho).
 - Execute o script.
 - Um gráfico será exibido mostrando a tendência de vendas ao longo dos meses.
 
