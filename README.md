@@ -53,12 +53,13 @@ Execução:
 
 - Abra o script 1.Gerando_dataset.R.
 - Localize e substitua o trecho "caminho_pasta" pelo caminho onde deseja salvar o arquivo de saída, coloque somente o caminho da pasta dentro das aspas, substitua as barras simples por barras duplas após colar o caminho.
-- Exemplo de caminho que deve ser colado: "C:\\Users\\pasta_desejada\\"
+- Exemplo de como o caminho deve ficar após ser colado: "C:\\\\Users\\\\pasta_desejada\\\\"
 - Execute o script.
 - O arquivo gerado será salvo como data_clean.csv no caminho especificado.
 
 
 2. Análise e Visualização dos Dados (2.Grafico_tendencia.R)
+
 Este script carrega o dataset limpo gerado pelo script anterior e realiza a análise de tendências mensais de vendas, gerando um gráfico de receita ao longo do tempo.
 
 Etapas realizadas:
