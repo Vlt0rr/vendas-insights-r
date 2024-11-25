@@ -9,11 +9,12 @@ O repositório está organizado da seguinte forma:
 
 /Teste_Analytics_VitorAlves
 │
-├── 1.Gerando_dataset.R       # Primeiro script
-├── 2.Grafico_tendencia.R     # Segundo script
-├── README.md                 # Documentação do projeto
-├── consultas_sql.sql         # Consulta SQL solicitada
-└── relatorio_insights.pdf    # Relatório dos insights retirados da análise
+├── 1.Gerando_dataset.R       
+├── 2.Grafico_tendencia.R     
+├── README.md                
+├── consultas_sql.sql         
+└── relatorio_insights.pdf 
+
 
 
 
@@ -36,7 +37,7 @@ Para instalar os pacotes necessários, execute:
 ```R
 install.packages(c("dplyr", "readr", "readxl", "lubridate", "ggplot2"))
 
-🚀 Como Executar os Scripts
+🚀 ### Como Executar os Scripts
 1. Geração e Limpeza do Dataset (1.Gerando_dataset.R)
 Este script gera um dataset fictício de vendas, realiza a limpeza dos dados e salva o resultado em um arquivo .csv.
 
