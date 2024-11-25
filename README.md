@@ -8,6 +8,7 @@ Este repositório contém dois scripts desenvolvidos em R para geração, limpez
 O repositório está organizado da seguinte forma:
 
 /Teste_Analytics_VitorAlves
+
 │
 ├── 1.Gerando_dataset.R       
 ├── 2.Grafico_tendencia.R     
@@ -35,9 +36,10 @@ Certifique-se de que você tem o **R** e os pacotes necessários instalados:
 
 Para instalar os pacotes necessários, execute:
 ```R
-install.packages(c("dplyr", "readr", "readxl", "lubridate", "ggplot2"))
+Install.packages(c("dplyr", "readr", "readxl", "lubridate", "ggplot2"))
 
-🚀 ### Como Executar os Scripts
+---
+🚀 Como Executar os Scripts
 1. Geração e Limpeza do Dataset (1.Gerando_dataset.R)
 Este script gera um dataset fictício de vendas, realiza a limpeza dos dados e salva o resultado em um arquivo .csv.
 
@@ -53,6 +55,8 @@ Abra o script 1.Gerando_dataset.R.
 Localize e substitua o trecho "caminho_pasta" pelo caminho onde deseja salvar o arquivo de saída, coloque somente o caminho da pasta dentro das aspas, substitua as barras "\" por "\\" após colar o caminho.
 Execute o script.
 O arquivo gerado será salvo como data_clean.csv no caminho especificado.
+
+---
 
 2. Análise e Visualização dos Dados (2.Grafico_tendencia.R)
 Este script carrega o dataset limpo gerado pelo script anterior e realiza a análise de tendências mensais de vendas, gerando um gráfico de receita ao longo do tempo.
