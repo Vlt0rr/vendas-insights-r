@@ -83,7 +83,7 @@ O gráfico mostra a tendência da **receita total ao longo do tempo**, útil par
 
 Desenvolvido por **Vitor Alves**  
 📧 vitoralves20112011@gmail.com  
-💼 [linkedin.com/in/seu-perfil](https://linkedin.com/in/vit0ralves)
+💼 [linkedin.com/in/vit0ralves(https://linkedin.com/in/vit0ralves)
 
 ---
 
