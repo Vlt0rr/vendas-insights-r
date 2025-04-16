@@ -1,78 +1,100 @@
-# Teste_Analytics_VitorAlves
 
-Este repositório contém dois scripts desenvolvidos em R para geração, limpeza e análise de um dataset de vendas, incluindo a visualização de tendências de receita.
+# 📊 Simulador de Vendas e Análise de Receita com R
 
----
-
-📂 Estrutura do Repositório
-
-O repositório está organizado da seguinte forma:
-
-/Teste_Analytics_VitorAlves
-
-├── 1.Gerando_dataset.R       
-├── 2.Grafico_tendencia.R     
-├── README.md                
-├── consultas_sql.sql         
-└── relatorio_insights.pdf 
-
-
-
+Este projeto é um pipeline completo em R para **geração, tratamento, análise e visualização de dados de vendas**. Ele simula um cenário real de vendas entre diferentes produtos e marcas automotivas, prepara os dados, identifica o produto mais vendido e gera gráficos com análise temporal das receitas.
 
 ---
 
-## 🛠️ Pré-requisitos
+## 🚀 Visão Geral
 
-Certifique-se de que você tem o **R** e os pacotes necessários instalados:
+Este projeto está dividido em dois scripts principais:
 
-### Pacotes necessários para `1.Gerando_dataset.R`:
-- `dplyr`
-- `readr`
+1. **Gerador e Limpador de Dados (`script_1.R`)**  
+   - Gera um dataset fictício de vendas com base em categorias e produtos
+   - Garante a consistência entre produtos e suas marcas
+   - Remove duplicatas e valores ausentes
+   - Salva o dataset limpo em `.csv`
+   - Identifica o produto com maior receita acumulada
 
-### Pacotes necessários para `2.Grafico_tendencia.R`:
-- `readxl`
-- `lubridate`
-- `ggplot2`
+2. **Analisador e Visualizador de Vendas (`script_2.R`)**  
+   - Carrega o dataset limpo
+   - Calcula a receita total de cada venda
+   - Agrupa os dados por mês
+   - Gera um gráfico de tendência de receita com `ggplot2`
 
-Para instalar os pacotes necessários, execute: Install.packages(c("dplyr", "readr", "readxl", "lubridate", "ggplot2"))
+---
 
-🚀 Como Executar os Scripts
-1. Geração e Limpeza do Dataset (1.Gerando_dataset.R)
+## 📂 Estrutura do Projeto
 
-Este script gera um dataset fictício de vendas, realiza a limpeza dos dados e salva o resultado em um arquivo .csv.
+```
+📦 projeto/
+│
+├── script_1.R               # Criação e limpeza de dados
+├── script_2.R               # Análise e visualização
+├── data_clean.csv           # Arquivo gerado com dados prontos para análise
+```
 
-Etapas realizadas:
-- Geração de dados fictícios (produtos, categorias, preços, quantidades).
-- Inclusão de categorias nos produtos.
-- Remoção de duplicidades e valores ausentes.
-- Salvamento do dataset limpo no formato .csv.
-- Cálculo do total de vendas por produto.
-- Identificação do produto mais vendido.
-  
-Execução:
+---
 
-- Abra o script 1.Gerando_dataset.R.
-- Localize e substitua o trecho "caminho_pasta" pelo caminho onde deseja salvar o arquivo de saída, coloque somente o caminho da pasta dentro das aspas, substitua as barras simples por barras duplas após colar o caminho.
-- Exemplo de como o caminho deve ficar após ser colado: "C:\\\\Users\\\\pasta_desejada\\\\"
-- Execute o script.
-- O arquivo gerado será salvo como data_clean.csv no caminho especificado.
+## 📊 Exemplo de Gráfico Gerado
 
+O gráfico mostra a tendência da **receita total ao longo do tempo**, útil para observar sazonalidades e crescimento:
 
-2. Análise e Visualização dos Dados (2.Grafico_tendencia.R)
+- Eixo X: Mês/Ano
+- Eixo Y: Receita total
+- Pontos e linhas representam a performance mensal
 
-Este script carrega o dataset limpo gerado pelo script anterior e realiza a análise de tendências mensais de vendas, gerando um gráfico de receita ao longo do tempo.
+---
 
-Etapas realizadas:
-- Leitura do arquivo data_clean.csv.
-- Transformação das datas para formato mensal.
-- Cálculo da receita total por mês.
-- Geração de um gráfico de linha com pontos representando a receita mensal.
-  
-  Execução:
-  
-- Abra o script 2.Grafico_tendencia.R.
-- Substitua caminho_dataset pelo caminho completo do arquivo data_clean.csv(lembre-se de colocar as barras duplas no lugar das barras padrões do caminho).
-- Execute o script.
-- Um gráfico será exibido mostrando a tendência de vendas ao longo dos meses.
+## 🧠 Tecnologias e Pacotes Utilizados
 
+- `dplyr` – Manipulação de dados
+- `readr` – Leitura e escrita de arquivos
+- `ggplot2` – Visualização de dados
+- `lubridate` – Manipulação de datas
+- `readxl` – Caso deseje adaptar para arquivos Excel (.xlsx)
 
+---
+
+## ▶️ Como Executar
+
+1. **Execute o `script_1.R`**
+   - Ele criará automaticamente um arquivo chamado `data_clean.csv`
+   - Altere a variável `caminho_pasta` para o local desejado no seu computador
+
+2. **Edite o caminho no `script_2.R`**
+   - Substitua `"C:\coloque\o\caminho\da\pasta\aqui\nesse\formato"` pelo caminho onde salvou o `data_clean.csv`
+
+3. **Execute o `script_2.R`**
+   - Um gráfico com a receita total por mês será exibido
+
+---
+
+## 💼 Aplicações e Utilidade
+
+- Treinamento em manipulação e limpeza de dados
+- Simulação de dashboards de vendas
+- Criação de gráficos com tendências reais de receita
+- Projeto ideal para incluir em portfólios voltados a análise de dados com R
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Vitor Alves**  
+📧 seuemail@gmail.com  
+💼 [linkedin.com/in/seu-perfil](https://linkedin.com/in/seu-perfil)
+
+---
+
+## 🔖 Sugestão de Título do Projeto
+
+> **Análise de Vendas Simulada com R: Da Geração ao Gráfico Final**
+
+Ou, se preferir um nome mais técnico:
+
+> **Simulação e Análise Temporal de Receita com R**
+
+Você pode escolher o título que melhor se encaixa ao seu portfólio ou objetivo de apresentação.
+
+Se quiser, posso gerar o `README.md` em arquivo agora.
