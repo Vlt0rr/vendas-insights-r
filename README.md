@@ -86,15 +86,3 @@ Desenvolvido por **Vitor Alves**
 💼 https://linkedin.com/in/vit0ralves
 
 ---
-
-## 🔖 Sugestão de Título do Projeto
-
-> **Análise de Vendas Simulada com R: Da Geração ao Gráfico Final**
-
-Ou, se preferir um nome mais técnico:
-
-> **Simulação e Análise Temporal de Receita com R**
-
-Você pode escolher o título que melhor se encaixa ao seu portfólio ou objetivo de apresentação.
-
-Se quiser, posso gerar o `README.md` em arquivo agora.
